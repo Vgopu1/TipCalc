@@ -30,16 +30,8 @@ class ViewController: UIViewController {
     }
 
     func getTipPercentage() -> Double {
-        switch(tipPercentageSegControl.selectedSegmentIndex) {
-        case(0):
-            return 10.0
-        case(1):
-            return 15.0
-        case(2):
-            return 20.0
-        default:
-            return 0.0
-        }
+        var tipPercentages = [10.0, 15.0, 20.0]
+        return tipPercentages[tipPercentageSegControl.selectedSegmentIndex]
     }
     
     func refreshAmounts() {
@@ -67,5 +59,8 @@ class ViewController: UIViewController {
         refreshAmounts()
     }
 
+    @IBAction func onTap(sender: AnyObject) {
+        view.endEditing(true)
+    }
 }
 

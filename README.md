@@ -21,7 +21,7 @@ Completed stories:
 - Refactored the tip computation into a separate function and reusing it on change of both the amount and tip percentage.  
 
 ## Credit
-- GIF created with [LiceCap](http://www.cockos.com/licecap/).
+- GIF created with [LICEcap](http://www.cockos.com/licecap/).
 - [@timothy1ee](https://github.com/timothy1ee) for the great [tutorial video](http://vimeo.com/102084767) 
 
 ## License

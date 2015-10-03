@@ -90,6 +90,10 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="qra-Nc-N6I" appends="YES" id="L3W-y3-V6A"/>
+                        </connections>
                     </view>
                     <connections>
                         <outlet property="billField" destination="P0M-46-68d" id="7q1-MO-HI1"/>
@@ -99,6 +103,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="qra-Nc-N6I">
+                    <connections>
+                        <action selector="onTap:" destination="BYZ-38-t0r" id="cIz-bF-04E"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="208" y="435"/>
         </scene>
