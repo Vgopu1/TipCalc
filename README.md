@@ -1,19 +1,20 @@
-# Swift Tip Calculator
-Because sometimes a TODO list is too hard as a first app, here's a tip calculator!
+# Pre-work Tip Calculator for Codepath
 
-## What is this
-
-![Demo of calculating a tip for $51.33](demo.gif)
-
-This is an implementation of the Swift tip calculator built by following [tutorial video](http://vimeo.com/102084767) published by CodePath.
+This application is an exercise to complete the application to Codepath's iOS for Designers bootcamp. There is not a huge investement on design nor a lot of complex code behind it, the exercise triest to touch
 
 Time spent: 1.5 hours
 
-Completed stories:
+## What does the app can do?
 
- * [x] Required: Calculates tip value based on the user input
- * [ ] Required: A settings button displays information about the app
- * [ ] Optional: User can set a default tip value from settings
+This is an implementation of the Swift tip calculator built by following [tutorial video](http://vimeo.com/102084767) published by CodePath.
+
+![Demo of calculating a tip for $51.33](demo.gif)
+
+* [x] Required: The user can calculate the tip, using diferent percentages 
+* [ ] Optional: Playing with different animations: backgrounds, centers, alphas...
+* [ ] Optional: Using different images
+* [ ] Optional: Tint of elements on changing percentages
+* [ ] Optional: App icon and launc images
 
 ## What's different
 
@@ -21,9 +22,5 @@ Completed stories:
 - Refactored the tip computation into a separate function and reusing it on change of both the amount and tip percentage.  
 
 ## Credit
-- GIF created with [LICEcap](http://www.cockos.com/licecap/).
-- [@timothy1ee](https://github.com/timothy1ee) for the great [tutorial video](http://vimeo.com/102084767) 
+GIF created with [LICEcap](http://www.cockos.com/licecap/).
 
-## License
-
-MIT
