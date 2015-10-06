@@ -14,7 +14,7 @@ This is an implementation of the Swift tip calculator built by following [tutori
 * [ ] Optional: Playing with different animations: backgrounds, centers, alphas...
 * [ ] Optional: Using different images
 * [ ] Optional: Tint of elements on changing percentages
-* [ ] Optional: App icon and launc images
+* [ ] Optional: App icon and launch images
 
 ## What's different
 
